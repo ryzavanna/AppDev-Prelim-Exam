@@ -1,0 +1,34 @@
+INSERT INTO Members VALUES 
+(1, 'Aria Montgomery', 'Cozy Mystery', '2024-01-15', 'Bibliophile'),
+(2, 'Clara Oswald', 'Sci-Fi / Fantasy', '2024-02-01', 'Bookworm'),
+(3, 'Rory Gilmore', 'Classics', '2024-02-10', 'Page Turner'),
+(4, 'Belle French', 'Romance', '2024-03-05', 'Bibliophile'),
+(5, 'Matilda Wormwood', 'Fiction', '2024-03-20', 'Bookworm');
+
+INSERT INTO Books VALUES 
+(101, 'The Very Secret Society of Irregular Witches', 'Sangu Mandanna', 'Cozy Fantasy', 2022),
+(102, 'Legends & Lattes', 'Travis Baldree', 'Cozy Fantasy', 2022),
+(103, 'The Maid', 'Nita Prose', 'Cozy Mystery', 2022),
+(104, 'The Night Circus', 'Erin Morgenstern', 'Fantasy', 2011),
+(105, 'Little Women', 'Louisa May Alcott', 'Classics', 1868);
+
+INSERT INTO ClubMeetings VALUES 
+(201, 101, '2024-03-01', 'Spellbinding Tea Party', 'The Reading Attic'),
+(202, 102, '2024-04-05', 'Coffee & Cinnamon Rolls Night', 'Main Lounge'),
+(203, 103, '2024-05-12', 'Mystery & Matcha Evening', 'Garden Patio'),
+(204, 104, '2024-06-18', 'Midnight Magic Gathering', 'The Reading Attic'),
+(205, 105, '2024-07-22', 'Vintage Classics Social', 'Main Lounge');
+
+INSERT INTO MeetingAttendees VALUES 
+(301, 201, 1, 5, 'Loved the warm atmosphere!'),
+(302, 201, 2, 4, 'Charming characters.'),
+(303, 202, 3, 5, 'Perfect book to go with a hot drink.'),
+(304, 203, 4, 3, 'Interesting plot twists.'),
+(305, 204, 5, 5, 'An absolute masterpiece!');
+
+INSERT INTO CafeOrders VALUES 
+(401, 1, 'Lavender Earl Grey Latte', 5.50, '2024-03-01'),
+(402, 2, 'Matcha Cream Puffs', 4.25, '2024-03-01'),
+(403, 3, 'Cinnamon Bun Tea', 4.00, '2024-04-05'),
+(404, 4, 'Iced Honey Oat Latte', 5.00, '2024-05-12'),
+(405, 5, 'Chamomile & Blueberry Scone', 6.00, '2024-06-18');
